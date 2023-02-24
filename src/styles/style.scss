@@ -26,14 +26,25 @@
     format('woff2');
 }
 
+:root {
+    font-family: KyivType;
+    font-weight: 700;
+}
 
-
+* {
+    box-sizing: border-box;
+}
 
 body,
 html {
     margin:0;
     padding:0;
     scroll-behavior: smooth;
+}
+
+h1,
+p {
+    white-space: pre;
 }
 
 .header {
@@ -45,13 +56,6 @@ html {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-h1,
-p {
-    white-space: pre;
-    font-family: KyivType;
-    font-weight: 700;
 }
 
 .menubtn {
