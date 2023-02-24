@@ -1,0 +1,33 @@
+body,
+html {
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: lightcoral;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-name {
+    white-space: pre;
+}
+
+.menubtn {
+    border-radius: solid 5px black;
+    font-size: 16px;
+}
+
+.menubtn div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+}
