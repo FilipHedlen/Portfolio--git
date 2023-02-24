@@ -42,13 +42,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: linear-gradient(to right top, #86a8e7, #7699da, #678ace, #587bc1, #486db5, #3e62ad, #3557a4, #2c4c9c, #2a4196, #2a368f, #2b2a87, #2d1c7f);
+}
+
 h1,
 p {
     white-space: pre;
 }
 
 .header {
-    background-color: lightcoral;
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
@@ -86,4 +89,26 @@ p {
 
 i {
     font-size:2rem;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+section a {
+    font-family: KyivType;
+    font-weight: 700;
+}
+
+.portfolio-btn {
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.portfolio-btn:hover {
+    color:salmon;
 }
